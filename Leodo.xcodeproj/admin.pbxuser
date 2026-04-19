@@ -1,0 +1,59 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 84C2838D2F951F9F008424DA /* Leodo */;
+		activeTarget = 8D1107260486CEB800E47090 /* Leodo */;
+		codeSenseManager = 84C283992F951FBE008424DA /* Code sense */;
+		executables = (
+			84C2838D2F951F9F008424DA /* Leodo */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 798302111;
+			PBXWorkspaceStateSaveDate = 798302111;
+		};
+		sourceControlManager = 84C283982F951FBE008424DA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	84C2838D2F951F9F008424DA /* Leodo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Leodo;
+		sourceDirectories = (
+		);
+	};
+	84C283982F951FBE008424DA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	84C283992F951FBE008424DA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D1107260486CEB800E47090 /* Leodo */ = {
+		activeExec = 0;
+		executables = (
+			84C2838D2F951F9F008424DA /* Leodo */,
+		);
+	};
+}
