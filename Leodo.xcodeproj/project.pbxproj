@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		84C283A52F952619008424DA /* LeodoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283A42F952619008424DA /* LeodoAppDelegate.m */; };
+		84C283B02F952B09008424DA /* LeodoMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283A72F952B08008424DA /* LeodoMainWindowController.m */; };
+		84C283B12F952B09008424DA /* LeodoReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283A92F952B08008424DA /* LeodoReaderView.m */; };
+		84C283B22F952B09008424DA /* LeodoSidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283AB2F952B08008424DA /* LeodoSidebarController.m */; };
+		84C283B32F952B09008424DA /* LeodoStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283AD2F952B08008424DA /* LeodoStatusBarView.m */; };
+		84C283B42F952B09008424DA /* LeodoToolbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283AF2F952B09008424DA /* LeodoToolbarController.m */; };
+		84C283BD2F952B49008424DA /* LeodoDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283B62F952B49008424DA /* LeodoDocumentController.m */; };
+		84C283BE2F952B49008424DA /* LeodoLibraryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283B82F952B49008424DA /* LeodoLibraryStore.m */; };
+		84C283BF2F952B49008424DA /* LeodoPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283BA2F952B49008424DA /* LeodoPrefs.m */; };
+		84C283C02F952B49008424DA /* LeodoSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283BC2F952B49008424DA /* LeodoSessionController.m */; };
+		84C283C72F952B82008424DA /* LeodoBookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283C22F952B82008424DA /* LeodoBookmark.m */; };
+		84C283C82F952B82008424DA /* LeodoBookRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283C42F952B82008424DA /* LeodoBookRecord.m */; };
+		84C283C92F952B82008424DA /* LeodoRecentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283C62F952B82008424DA /* LeodoRecentItem.m */; };
+		84C283D42F952BE3008424DA /* LeodoMuCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283CB2F952BE3008424DA /* LeodoMuCore.m */; };
+		84C283D52F952BE3008424DA /* LeodoMuDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283CD2F952BE3008424DA /* LeodoMuDocument.m */; };
+		84C283D62F952BE3008424DA /* LeodoMuOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283CF2F952BE3008424DA /* LeodoMuOutline.m */; };
+		84C283D72F952BE3008424DA /* LeodoMuRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283D12F952BE3008424DA /* LeodoMuRender.m */; };
+		84C283D82F952BE3008424DA /* LeodoMuSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C283D32F952BE3008424DA /* LeodoMuSearch.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -22,6 +40,42 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Leodo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leodo_Prefix.pch; sourceTree = "<group>"; };
+		84C283A32F952619008424DA /* LeodoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoAppDelegate.h; path = Sources/App/LeodoAppDelegate.h; sourceTree = "<group>"; };
+		84C283A42F952619008424DA /* LeodoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoAppDelegate.m; path = Sources/App/LeodoAppDelegate.m; sourceTree = "<group>"; };
+		84C283A62F952B08008424DA /* LeodoMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoMainWindowController.h; path = Sources/UI/LeodoMainWindowController.h; sourceTree = "<group>"; };
+		84C283A72F952B08008424DA /* LeodoMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoMainWindowController.m; path = Sources/UI/LeodoMainWindowController.m; sourceTree = "<group>"; };
+		84C283A82F952B08008424DA /* LeodoReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoReaderView.h; path = Sources/UI/LeodoReaderView.h; sourceTree = "<group>"; };
+		84C283A92F952B08008424DA /* LeodoReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoReaderView.m; path = Sources/UI/LeodoReaderView.m; sourceTree = "<group>"; };
+		84C283AA2F952B08008424DA /* LeodoSidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoSidebarController.h; path = Sources/UI/LeodoSidebarController.h; sourceTree = "<group>"; };
+		84C283AB2F952B08008424DA /* LeodoSidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoSidebarController.m; path = Sources/UI/LeodoSidebarController.m; sourceTree = "<group>"; };
+		84C283AC2F952B08008424DA /* LeodoStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoStatusBarView.h; path = Sources/UI/LeodoStatusBarView.h; sourceTree = "<group>"; };
+		84C283AD2F952B08008424DA /* LeodoStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoStatusBarView.m; path = Sources/UI/LeodoStatusBarView.m; sourceTree = "<group>"; };
+		84C283AE2F952B08008424DA /* LeodoToolbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoToolbarController.h; path = Sources/UI/LeodoToolbarController.h; sourceTree = "<group>"; };
+		84C283AF2F952B09008424DA /* LeodoToolbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoToolbarController.m; path = Sources/UI/LeodoToolbarController.m; sourceTree = "<group>"; };
+		84C283B52F952B49008424DA /* LeodoDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoDocumentController.h; path = Sources/Core/LeodoDocumentController.h; sourceTree = "<group>"; };
+		84C283B62F952B49008424DA /* LeodoDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoDocumentController.m; path = Sources/Core/LeodoDocumentController.m; sourceTree = "<group>"; };
+		84C283B72F952B49008424DA /* LeodoLibraryStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoLibraryStore.h; path = Sources/Core/LeodoLibraryStore.h; sourceTree = "<group>"; };
+		84C283B82F952B49008424DA /* LeodoLibraryStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoLibraryStore.m; path = Sources/Core/LeodoLibraryStore.m; sourceTree = "<group>"; };
+		84C283B92F952B49008424DA /* LeodoPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoPrefs.h; path = Sources/Core/LeodoPrefs.h; sourceTree = "<group>"; };
+		84C283BA2F952B49008424DA /* LeodoPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoPrefs.m; path = Sources/Core/LeodoPrefs.m; sourceTree = "<group>"; };
+		84C283BB2F952B49008424DA /* LeodoSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoSessionController.h; path = Sources/Core/LeodoSessionController.h; sourceTree = "<group>"; };
+		84C283BC2F952B49008424DA /* LeodoSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoSessionController.m; path = Sources/Core/LeodoSessionController.m; sourceTree = "<group>"; };
+		84C283C12F952B82008424DA /* LeodoBookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoBookmark.h; path = Sources/Library/LeodoBookmark.h; sourceTree = "<group>"; };
+		84C283C22F952B82008424DA /* LeodoBookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoBookmark.m; path = Sources/Library/LeodoBookmark.m; sourceTree = "<group>"; };
+		84C283C32F952B82008424DA /* LeodoBookRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoBookRecord.h; path = Sources/Library/LeodoBookRecord.h; sourceTree = "<group>"; };
+		84C283C42F952B82008424DA /* LeodoBookRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoBookRecord.m; path = Sources/Library/LeodoBookRecord.m; sourceTree = "<group>"; };
+		84C283C52F952B82008424DA /* LeodoRecentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoRecentItem.h; path = Sources/Library/LeodoRecentItem.h; sourceTree = "<group>"; };
+		84C283C62F952B82008424DA /* LeodoRecentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoRecentItem.m; path = Sources/Library/LeodoRecentItem.m; sourceTree = "<group>"; };
+		84C283CA2F952BE3008424DA /* LeodoMuCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoMuCore.h; path = Sources/MuCore/LeodoMuCore.h; sourceTree = "<group>"; };
+		84C283CB2F952BE3008424DA /* LeodoMuCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoMuCore.m; path = Sources/MuCore/LeodoMuCore.m; sourceTree = "<group>"; };
+		84C283CC2F952BE3008424DA /* LeodoMuDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoMuDocument.h; path = Sources/MuCore/LeodoMuDocument.h; sourceTree = "<group>"; };
+		84C283CD2F952BE3008424DA /* LeodoMuDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoMuDocument.m; path = Sources/MuCore/LeodoMuDocument.m; sourceTree = "<group>"; };
+		84C283CE2F952BE3008424DA /* LeodoMuOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoMuOutline.h; path = Sources/MuCore/LeodoMuOutline.h; sourceTree = "<group>"; };
+		84C283CF2F952BE3008424DA /* LeodoMuOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoMuOutline.m; path = Sources/MuCore/LeodoMuOutline.m; sourceTree = "<group>"; };
+		84C283D02F952BE3008424DA /* LeodoMuRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoMuRender.h; path = Sources/MuCore/LeodoMuRender.h; sourceTree = "<group>"; };
+		84C283D12F952BE3008424DA /* LeodoMuRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoMuRender.m; path = Sources/MuCore/LeodoMuRender.m; sourceTree = "<group>"; };
+		84C283D22F952BE3008424DA /* LeodoMuSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeodoMuSearch.h; path = Sources/MuCore/LeodoMuSearch.h; sourceTree = "<group>"; };
+		84C283D32F952BE3008424DA /* LeodoMuSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeodoMuSearch.m; path = Sources/MuCore/LeodoMuSearch.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Leodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,6 +128,7 @@
 		29B97314FDCFA39411CA2CEA /* Leodo */ = {
 			isa = PBXGroup;
 			children = (
+				84C2839C2F9524F6008424DA /* Sources */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -109,6 +164,89 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C2839C2F9524F6008424DA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84C283A12F952564008424DA /* MuCore */,
+				84C283A02F952554008424DA /* Library */,
+				84C2839F2F952542008424DA /* Core */,
+				84C2839E2F952530008424DA /* UI */,
+				84C2839D2F95251E008424DA /* App */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		84C2839D2F95251E008424DA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				84C283A32F952619008424DA /* LeodoAppDelegate.h */,
+				84C283A42F952619008424DA /* LeodoAppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		84C2839E2F952530008424DA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84C283A62F952B08008424DA /* LeodoMainWindowController.h */,
+				84C283A72F952B08008424DA /* LeodoMainWindowController.m */,
+				84C283A82F952B08008424DA /* LeodoReaderView.h */,
+				84C283A92F952B08008424DA /* LeodoReaderView.m */,
+				84C283AA2F952B08008424DA /* LeodoSidebarController.h */,
+				84C283AB2F952B08008424DA /* LeodoSidebarController.m */,
+				84C283AC2F952B08008424DA /* LeodoStatusBarView.h */,
+				84C283AD2F952B08008424DA /* LeodoStatusBarView.m */,
+				84C283AE2F952B08008424DA /* LeodoToolbarController.h */,
+				84C283AF2F952B09008424DA /* LeodoToolbarController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		84C2839F2F952542008424DA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				84C283B52F952B49008424DA /* LeodoDocumentController.h */,
+				84C283B62F952B49008424DA /* LeodoDocumentController.m */,
+				84C283B72F952B49008424DA /* LeodoLibraryStore.h */,
+				84C283B82F952B49008424DA /* LeodoLibraryStore.m */,
+				84C283B92F952B49008424DA /* LeodoPrefs.h */,
+				84C283BA2F952B49008424DA /* LeodoPrefs.m */,
+				84C283BB2F952B49008424DA /* LeodoSessionController.h */,
+				84C283BC2F952B49008424DA /* LeodoSessionController.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		84C283A02F952554008424DA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				84C283C12F952B82008424DA /* LeodoBookmark.h */,
+				84C283C22F952B82008424DA /* LeodoBookmark.m */,
+				84C283C32F952B82008424DA /* LeodoBookRecord.h */,
+				84C283C42F952B82008424DA /* LeodoBookRecord.m */,
+				84C283C52F952B82008424DA /* LeodoRecentItem.h */,
+				84C283C62F952B82008424DA /* LeodoRecentItem.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		84C283A12F952564008424DA /* MuCore */ = {
+			isa = PBXGroup;
+			children = (
+				84C283CA2F952BE3008424DA /* LeodoMuCore.h */,
+				84C283CB2F952BE3008424DA /* LeodoMuCore.m */,
+				84C283CC2F952BE3008424DA /* LeodoMuDocument.h */,
+				84C283CD2F952BE3008424DA /* LeodoMuDocument.m */,
+				84C283CE2F952BE3008424DA /* LeodoMuOutline.h */,
+				84C283CF2F952BE3008424DA /* LeodoMuOutline.m */,
+				84C283D02F952BE3008424DA /* LeodoMuRender.h */,
+				84C283D12F952BE3008424DA /* LeodoMuRender.m */,
+				84C283D22F952BE3008424DA /* LeodoMuSearch.h */,
+				84C283D32F952BE3008424DA /* LeodoMuSearch.m */,
+			);
+			name = MuCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +305,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				84C283A52F952619008424DA /* LeodoAppDelegate.m in Sources */,
+				84C283B02F952B09008424DA /* LeodoMainWindowController.m in Sources */,
+				84C283B12F952B09008424DA /* LeodoReaderView.m in Sources */,
+				84C283B22F952B09008424DA /* LeodoSidebarController.m in Sources */,
+				84C283B32F952B09008424DA /* LeodoStatusBarView.m in Sources */,
+				84C283B42F952B09008424DA /* LeodoToolbarController.m in Sources */,
+				84C283BD2F952B49008424DA /* LeodoDocumentController.m in Sources */,
+				84C283BE2F952B49008424DA /* LeodoLibraryStore.m in Sources */,
+				84C283BF2F952B49008424DA /* LeodoPrefs.m in Sources */,
+				84C283C02F952B49008424DA /* LeodoSessionController.m in Sources */,
+				84C283C72F952B82008424DA /* LeodoBookmark.m in Sources */,
+				84C283C82F952B82008424DA /* LeodoBookRecord.m in Sources */,
+				84C283C92F952B82008424DA /* LeodoRecentItem.m in Sources */,
+				84C283D42F952BE3008424DA /* LeodoMuCore.m in Sources */,
+				84C283D52F952BE3008424DA /* LeodoMuDocument.m in Sources */,
+				84C283D62F952BE3008424DA /* LeodoMuOutline.m in Sources */,
+				84C283D72F952BE3008424DA /* LeodoMuRender.m in Sources */,
+				84C283D82F952BE3008424DA /* LeodoMuSearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
